@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Estruturas de Decisão</title>
+</head>
+<body>
+    <script>
+        var nota1 = prompt("Digite a primeira nota") * 1;
+        var nota2 = prompt("Digite a segunda nota") * 1;
+        var media = (nota1 + nota2) / 2;
+
+        if (media >= 9 && media <= 10){
+            alert("Sua notas foram " + nota1 + " e " + nota2 + ". Tendo uma média de " + media + ". Seu conceito final é A. Sendo assim, você foi APROVADO");
+        }
+        if (media >= 7.5 && media < 9){
+            alert("Sua notas foram " + nota1 + " e " + nota2 + ". Tendo uma média de " + media + ". Seu conceito final é B. Sendo assim, você foi APROVADO");
+        }
+        if (media >= 6 && media < 7.5){
+            alert("Sua notas foram " + nota1 + " e " + nota2 + ". Tendo uma média de " + media + ". Seu conceito final é C. Sendo assim, você foi APROVADO");
+        }
+        if (media >= 4 && media < 6){
+            alert("Sua notas foram " + nota1 + " e " + nota2 + ". Tendo uma média de " + media + ". Seu conceito final é D. Sendo assim, você foi REPROVADO");
+        }
+        if (media >= 0 && media < 4){
+            alert("Sua notas foram " + nota1 + " e " + nota2 + ". Tendo uma média de " + media + ". Seu conceito final é E. Sendo assim, você foi REPROVADO");
+        }
+    </script>
+</body>
+</html>
